@@ -15,6 +15,7 @@ public class Main {
 
         System.out.println("Эта прогамма расчитывает сколько вы получите доп. секунд жизни, поднявшись на определённый этаж");
 
+
         System.out.print("Введите этаж, на который вы хотите взобраться");
         floor = input.nextDouble();
 
@@ -24,7 +25,7 @@ public class Main {
         result = liveInStep*SPAN_IN_FLOOR*STEPS_IN_FLOOR*floor;
 
         System.out.println("Ваша жизнь увеличилась на: " +result+ " сек");
-
+        //juck
 
     }
 }
